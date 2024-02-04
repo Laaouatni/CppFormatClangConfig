@@ -1,0 +1,93 @@
+---
+
+Language: Cpp
+AlignArrayOfStructures: Right 
+AlignConsecutiveAssignments: Consecutive 
+AlignConsecutiveBitFields: Consecutive 
+AlignConsecutiveDeclarations: Consecutive 
+AlignTrailingComments: 
+  Kind: Always
+  OverEmptyLines: 2
+AllowShortBlocksOnASingleLine: Always 
+AllowShortCaseLabelsOnASingleLine: true 
+AlignConsecutiveShortCaseStatements:
+  Enabled: true 
+  AcrossEmptyLines: true 
+  AcrossComments: true 
+  AlignCaseColons: true 
+AlignOperands: AlignAfterOperator 
+AllowShortFunctionsOnASingleLine: Inline 
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse 
+AllowShortLoopsOnASingleLine: true
+BraceWrapping:
+  AfterCaseLabel: false
+  AfterClass: false
+  AfterControlStatement: Never
+  AfterEnum: false
+  AfterFunction: false
+  AfterNamespace: false
+  AfterStruct: false
+  AfterUnion: false
+  AfterExternBlock: false
+  BeforeCatch: false
+  BeforeElse: false
+  BeforeWhile: false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: false
+BreakBeforeBinaryOperators: None
+BreakInheritanceList: AfterComma
+BreakStringLiterals: true
+ColumnLimit: 60
+CompactNamespaces: false
+ContinuationIndentWidth: 2
+DisableFormat: false
+EmptyLineBeforeAccessModifier: LogicalBlock
+EmptyLineAfterAccessModifier: Never
+FixNamespaceComments: true
+IncludeBlocks: Regroup
+IndentCaseLabels: true
+IndentPPDirectives: AfterHash
+IndentRequiresClause: true
+IndentRequires: true
+IndentWidth: 2
+IndentWrappedFunctionNames: true
+InsertBraces: true
+KeepEmptyLinesAtTheStartOfBlocks: false
+MaxEmptyLinesToKeep: 1
+NamespaceIndentation: All
+QualifierAlignment: Left
+PointerAlignment: Right
+ReferenceAlignment: Right
+RemoveBracesLLVM: false
+ReflowComments: true
+RemoveParentheses: MultipleParentheses
+RemoveSemicolon: false
+RequiresExpressionIndentation: Keyword
+SeparateDefinitionBlocks: Always
+ShortNamespaceLines: 0
+SortIncludes: CaseInsensitive
+SortUsingDeclarations: LexicographicNumeric
+SpaceAfterCStyleCast: true
+SpaceAfterLogicalNot: false
+SpaceAfterTemplateKeyword: false
+SpaceAroundPointerQualifiers: After
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeCaseColon: false
+SpaceBeforeCtorInitializerColon: true
+SpaceBeforeInheritanceColon: true
+SpaceBeforeParens: Custom
+SpaceBeforeParensOptions:
+  AfterControlStatements: false
+  AfterFunctionDeclarationName: false
+  AfterFunctionDefinitionName: false
+  AfterPlacementOperator: true
+SpaceBeforeRangeBasedForLoopColon: false
+SpaceBeforeSquareBrackets: false
+SpaceInEmptyBlock: false
+SpacesBeforeTrailingComments: 3
+SpacesInAngles: Never
+SpacesInContainerLiterals: false
+UseTab: Never
+
+---
