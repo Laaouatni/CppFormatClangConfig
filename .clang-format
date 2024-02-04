@@ -78,14 +78,14 @@ SpaceBeforeCtorInitializerColon: true
 SpaceBeforeInheritanceColon: true
 SpaceBeforeParens: Custom
 SpaceBeforeParensOptions:
-  AfterControlStatements: false
+  AfterControlStatements: true
   AfterFunctionDeclarationName: false
   AfterFunctionDefinitionName: false
-  AfterPlacementOperator: true
-SpaceBeforeRangeBasedForLoopColon: false
+  AfterPlacementOperator: false    
+SpaceBeforeRangeBasedForLoopColon: true
 SpaceBeforeSquareBrackets: false
 SpaceInEmptyBlock: false
-SpacesBeforeTrailingComments: 3
+SpacesBeforeTrailingComments: 1
 SpacesInAngles: Never
 SpacesInContainerLiterals: false
 UseTab: Never
