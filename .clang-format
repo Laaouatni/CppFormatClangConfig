@@ -22,6 +22,7 @@ BreakStringLiterals: true
 FixNamespaceComments: true
 IndentRequiresClause: true
 SpaceAfterCStyleCast: true
+IndentAccessModifiers: true
 IndentWrappedFunctionNames: true
 SpaceBeforeInheritanceColon: true
 AllowShortLoopsOnASingleLine: true
@@ -65,7 +66,6 @@ AllowShortBlocksOnASingleLine: Always
 IndentWidth: 2
 ShortNamespaceLines: 0
 MaxEmptyLinesToKeep: 1
-AccessModifierOffset: 0
 ContinuationIndentWidth: 2
 SpacesBeforeTrailingComments: 1
 
