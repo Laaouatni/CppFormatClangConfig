@@ -2,38 +2,6 @@
 
 Language: Cpp
 
-AlignConsecutiveBitFields: Consecutive 
-AlignConsecutiveAssignments: Consecutive 
-AlignConsecutiveDeclarations: Consecutive 
-
-SortIncludes: CaseInsensitive
-IncludeBlocks: Regroup
-AlignOperands: AlignAfterOperator 
-SpaceBeforeParens: Custom
-RemoveParentheses: MultipleParentheses
-IndentPPDirectives: AfterHash
-NamespaceIndentation: All
-BreakInheritanceList: AfterComma
-SortUsingDeclarations: LexicographicNumeric
-SpaceAroundPointerQualifiers: After
-RequiresExpressionIndentation: Keyword
-EmptyLineBeforeAccessModifier: LogicalBlock
-AllowShortFunctionsOnASingleLine: Inline 
-AllowShortIfStatementsOnASingleLine: AllIfsAndElse 
-
-QualifierAlignment: Left
-PointerAlignment: Right
-ReferenceAlignment: Right
-AlignArrayOfStructures: Right 
-
-UseTab: Never
-SpacesInAngles: Never
-EmptyLineAfterAccessModifier: Never
-BreakBeforeBinaryOperators: None
-
-SeparateDefinitionBlocks: Always
-AllowShortBlocksOnASingleLine: Always
-
 DisableFormat: false
 RemoveSemicolon: false
 RemoveBracesLLVM: false
@@ -62,12 +30,45 @@ SpaceBeforeCtorInitializerColon: true
 AllowShortCaseLabelsOnASingleLine: true 
 SpaceBeforeRangeBasedForLoopColon: true
 
-ShortNamespaceLines: 0
-AccessModifierOffset: 0
-MaxEmptyLinesToKeep: 1
-SpacesBeforeTrailingComments: 1
+SortIncludes: CaseInsensitive
+IncludeBlocks: Regroup
+AlignOperands: AlignAfterOperator 
+SpaceBeforeParens: Custom
+RemoveParentheses: MultipleParentheses
+IndentPPDirectives: AfterHash
+NamespaceIndentation: All
+BreakInheritanceList: AfterComma
+SortUsingDeclarations: LexicographicNumeric
+SpaceAroundPointerQualifiers: After
+RequiresExpressionIndentation: Keyword
+EmptyLineBeforeAccessModifier: LogicalBlock
+AllowShortFunctionsOnASingleLine: Inline 
+AllowShortIfStatementsOnASingleLine: AllIfsAndElse 
+
+AlignConsecutiveBitFields: Consecutive
+AlignConsecutiveAssignments: Consecutive
+AlignConsecutiveDeclarations: Consecutive
+
+PointerAlignment: Right
+QualifierAlignment: Left
+ReferenceAlignment: Right
+AlignArrayOfStructures: Right 
+
+UseTab: Never
+SpacesInAngles: Never
+BreakBeforeBinaryOperators: None
+EmptyLineAfterAccessModifier: Never
+
+SeparateDefinitionBlocks: Always
+AllowShortBlocksOnASingleLine: Always
+
 IndentWidth: 2
+ShortNamespaceLines: 0
+MaxEmptyLinesToKeep: 1
+AccessModifierOffset: 0
 ContinuationIndentWidth: 2
+SpacesBeforeTrailingComments: 1
+
 ColumnLimit: 60
 
 SpaceBeforeParensOptions:
@@ -77,7 +78,6 @@ SpaceBeforeParensOptions:
   AfterControlStatements: true
 
 BraceWrapping:
-  AfterControlStatement: Never
   AfterEnum: false
   AfterClass: false
   AfterUnion: false
@@ -92,6 +92,7 @@ BraceWrapping:
   SplitEmptyRecord: false
   SplitEmptyFunction: false
   SplitEmptyNamespace: false
+  AfterControlStatement: Never
 
 AlignConsecutiveShortCaseStatements:
   Enabled: true 
